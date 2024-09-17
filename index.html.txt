@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Gin Mill - Arklow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sports">Live Sports</a></li>
+                <li><a href="#music">Live Music</a></li>
+                <li><a href="#cocktails">Cocktail Specials</a></li>
+                <li><a href="#function-room">Function Room</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to The Gin Mill</h1>
+                <p>Arklow’s top spot for live sports, music, cocktails, and good times!</p>
+                <a href="#events" class="btn">See What's On</a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Live Sports Section -->
+    <section id="sports" class="section sports">
+        <h2>Live Sports & Horse Racing</h2>
+        <p>Catch all the live action from the world of sports, including horse racing, football, rugby, and more!</p>
+        <div class="sports-gallery">
+            <img src="images/sports1.jpg" alt="Live Sports">
+            <img src="images/sports2.jpg" alt="Horse Racing">
+        </div>
+    </section>
+
+    <!-- Live Music Section -->
+    <section id="music" class="section music">
+        <h2>Live Music & Entertainment</h2>
+        <p>Join us for live music on weekends, featuring local talent and DJs!</p>
+        <div class="events-calendar">
+            <ul>
+                <li><strong>Saturday, 21st Sept</strong> - Live Band: The Arklow Crew</li>
+                <li><strong>Friday, 27th Sept</strong> - DJ Set: Electric Beats</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Cocktail Specials Section -->
+    <section id="cocktails" class="section cocktails">
+        <h2>Cocktail Specials</h2>
+        <p>Explore our signature cocktails and weekly specials!</p>
+        <div class="cocktail-menu">
+            <ul>
+                <li>Gin Fizz - €8</li>
+                <li>Mojito - €9</li>
+                <li>Whiskey Sour - €10</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Function Room Section -->
+    <section id="function-room" class="section function-room">
+        <h2>Function Room Hire</h2>
+        <p>Looking for the perfect place to host your event? Book our function room!</p>
+        <a href="#contact" class="btn">Inquire Now</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch to book your table or for any inquiries.</p>
+        <address>
+            <p>The Gin Mill, Main Street, Arklow, County Wicklow</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: info@theginmill.ie</p>
+        </address>
+        <ul class="social-media">
+            <li><a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Gin Mill. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
